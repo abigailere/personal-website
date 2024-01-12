@@ -8,15 +8,14 @@ import "./Footer.css"
 const Footer = () => {
   return (
     <div className="footer">
+      <h4>Connect With Me!</h4>
         <div className="socialMedia">
-          {/*change these links*/}
-            <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/in/christine-lin-9a0155189/')}/>
-            <GitHubIcon onClick={() => window.open('https://github.com/christinealin7771')}/>
-            <EmailIcon onClick={() => window.location = 'mailto:christinelin.7771@gmail.com'}/>
+            <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/in/abigail-erefah')}/>
+            <GitHubIcon onClick={() => window.open('https://github.com/abigailere')}/>
+            <EmailIcon onClick={() => window.location = 'mailto:eabigail0918@gmail.com'}/>
     
         </div>
-        {/*change this*/}
-        <p> &copy; 2023 christinelin.com</p>
+        <p> &copy; 2023 abigailerefah.com</p>
     </div>
   )
 }

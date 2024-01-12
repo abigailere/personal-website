@@ -1,0 +1,278 @@
+.experience{
+	background: linear-gradient(-45deg, rgb(121, 121, 113), rgb(112, 149, 179), rgb(175, 110, 213), rgb(174, 179, 109) );
+	/* background-size: 400% 400%; */
+	animation: gradient 20s ease infinite;
+	height: auto;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.experience h1{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    max-height: 105%;
+    /* color: white; */
+	color: black;
+    font-size: 2.3rem;
+    /* text-shadow: 
+        0.5px 0.5px 0px #020b16, 
+        2px 2px 0px #6868AC,
+        2px 2px 0px #c3b66d; */
+    margin-bottom: -4rem;
+}
+
+.experience .resume-timeline {
+	max-width: 100%;
+}
+
+.experience .timeline-wrap {
+	position: relative;
+	margin-top: 1.5rem;
+	margin-bottom: 6rem;
+}
+
+.experience .timeline-wrap::before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	left: 38%;
+	top: 0;
+  }
+
+.experience .timeline-block {
+	position: relative;
+	padding-top: 1.5rem;
+  }
+
+.experience .timeline-ico {
+	height: 3rem;
+	width: 3rem;
+	line-height: 4.8rem;
+	background: #313131;
+	border-radius: 50%;
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+	left: 31%;
+	top: .9rem;
+	margin-left: 5%;
+}
+
+.experience .timeline-ico .i {
+	position: relative;
+	left: .05rem;
+	top: -0.5rem;
+}
+  
+ .experience .timeline-header {
+	float: left;
+	width: 35%;
+	padding-right: 90px;
+	text-align: right;
+  }
+ .experience .timeline-header h2 {
+	margin-bottom: 0;
+	margin-top: -7px;
+	width: 90%;
+	margin-left: 2.8rem;
+  }
+ .experience .timeline-header p {
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.1rem;
+	color: #090808;
+  }
+ .experience .timeline-content {
+	margin-left: 38%;
+	padding-left: 60px;
+	text-align: left;
+	margin-top: -2rem;
+  }
+ .experience .timeline-content h4 {
+	position: relative;
+	padding-bottom: 1rem;
+	font-size: 1.3rem;
+	color: #03f4ec;
+  }
+ .experience .timeline-content h4::after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 50px;
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.experience .timeline-content p {
+	margin-top: -0.5rem;
+	width: 80%;
+	font-size: 1rem;
+	margin-bottom: 2rem;
+  }
+
+.experience .timeline-content li {
+	text-indent: -1.3rem; 
+	padding-bottom: 0.5rem;
+	/* margin: 0.33em 0.5em 0.5em 1.5em; */
+}
+
+.experience .spacing {
+	padding-bottom: 5%;
+}
+
+.experience .between-spacing{
+	margin-bottom: -5%;
+}
+
+.btn {
+	flex: 1 1 auto;
+	margin: 10px;
+	padding: 3vh;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: black;
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+	/* box-shadow: 3px 3px 0 #e5e2e2; */
+	border-radius: 10px;
+   }
+
+  .btn:hover {
+	background-position: right center; /* change the direction of the change here */
+	box-shadow: 3px 3px 0 #000000;
+  }
+
+  .btn-1 {
+	background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  }
+
+  @media only screen and (max-width: 700px) {
+	.experience .between-spacing{
+		margin-bottom: -10vh;
+	}
+
+    .experience h1{
+		font-size: 1.5rem;
+		text-align: left;
+
+	}
+
+	.experience .timeline-ico {
+		height: 2rem;
+		width: 2rem;
+		line-height: 3rem;
+		left: 29%;
+		top: 1rem;
+		margin-left: 5%;
+	}
+
+	.experience .timeline-ico .i {
+		font-size: 15px;
+		left: .05rem;
+	}
+
+	.experience .timeline-header h2 {
+		font-size: 1rem;
+		margin-left: 0.7vh;
+	}
+
+	.experience .timeline-header p {
+		font-size: 0.8rem;
+		margin-bottom: -6vh;
+	}
+
+	.experience .timeline-content h4 {
+		position:relative;
+		font-size: 1.4rem;
+		left: -40px;
+		margin-left: 22px;
+		margin-top: 4vh;
+	}
+
+	.experience .timeline-content p {
+		font-size: 0.9rem;
+		margin-left: -2vh;
+	}
+
+	.experience .timeline-content li {
+		text-indent: -1.3rem; 
+		padding-bottom: 0.8rem;
+	}
+
+
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+	.experience .between-spacing{
+		margin-bottom: -10vh;
+	}
+
+    .experience h1{
+		font-size: 1.5rem;
+		text-align: left;
+
+	}
+
+	.experience .timeline-ico {
+		height: 2rem;
+		width: 2rem;
+		line-height: 3rem;
+		left: 29%;
+		top: 1rem;
+		margin-left: 5%;
+	}
+
+	.experience .timeline-ico .i {
+		font-size: 15px;
+		left: .05rem;
+	}
+
+	.experience .timeline-header h2 {
+		font-size: 1rem;
+		margin-left: 0.7vh;
+	}
+
+	.experience .timeline-header p {
+		font-size: 0.8rem;
+		margin-bottom: -6vh;
+		margin-right: 1vh;
+	}
+
+	.experience .timeline-content h4 {
+		position:relative;
+		font-size: 1.4rem;
+		left: -40px;
+		margin-left: 22px;
+		margin-top: 4vh;
+	}
+
+	.experience .timeline-content p {
+		font-size: 0.9rem;
+		margin-left: -2vh;
+	}
+
+	.experience .timeline-content li {
+		text-indent: -1.3rem; 
+		padding-bottom: 0.8rem;
+	}
+
+}

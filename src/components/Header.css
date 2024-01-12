@@ -1,0 +1,144 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 7.3%; */
+  height: 7%;
+  z-index: 100;
+  background-color: transparent;
+
+}
+
+.scrolled {
+  /* margin-top: -5vh; */
+  height: 10%;
+  background-color: rgb(120, 125, 195, 0.93);
+  /* border-radius: 20%; */
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #635f5f;
+  padding: 20px;
+  /* background-color: rgba(248, 248, 248, 0.3);  */
+  border-bottom: 20px black;
+}
+
+.header-content-scrolled {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #635f5f;
+  padding: 20px;
+  background-color: rgba(248, 248, 248, 0.3); 
+  border-bottom: 20px black;
+}
+
+
+.links {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 20px;
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+
+
+.header a:hover {
+  
+  color: rgba(255, 255, 255);
+}
+
+
+@media only screen and (max-width: 900px) {
+  .scrolled {
+      /* margin-top: -5vh; */
+      height: 13%;
+      background-color: rgba(85, 98, 126, 0.93);
+      /* border-radius: 20%; */
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      /* height: 7.3%; */
+      height: 7%;
+      z-index: 100;
+      background-color: transparent;
+  
+  }
+
+  .header a {
+      text-decoration: none;
+      color: rgba(255, 255, 255);
+      margin: 20px;
+      font-size: 15px;
+      font-weight: 20px;
+      padding-left: 10px;
+      text-transform: uppercase;
+  }
+
+  .scrolled {
+      /* margin-top: -5vh; */
+      height: 10%;
+      background-color: rgba(85, 98, 126, 0.93);
+      /* border-radius: 20%; */
+  }
+  
+
+}
+
+
+@media only screen and (max-width: 400px) {
+  .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      /* height: 7.3%; */
+      height: 7%;
+      z-index: 100;
+      background-color: transparent;
+      /* margin-top: 15px; */
+  }
+
+  .header a {
+      text-decoration: none;
+      color: rgba(255, 255, 255);
+      margin: 20px;
+      font-size: 15px;
+      font-weight: 20px;
+      padding-left: 0.1px;
+      text-transform: uppercase;
+  }
+
+  .scrolled {
+      /* margin-top: -5vh; */
+      height: 10%;
+      background-color: rgba(85, 98, 126, 0.93);
+      /* border-radius: 20%; */
+  }
+
+}

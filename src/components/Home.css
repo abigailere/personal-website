@@ -1,0 +1,285 @@
+.home {
+
+	background: linear-gradient(-45deg, rgb(5, 243, 196), rgb(128, 83, 186), rgb(21, 83, 189), rgb(238, 224, 25));
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: auto;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+  
+.about{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    
+    /* background-color: rgba(248, 248, 248, 0);  */
+    max-height: auto;
+}
+
+.about h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120px;
+    /* color: #ffe655; */
+    /* color: rgb(237, 237, 24); */
+    color: white;
+    height: 50px;
+    font-weight: bold;
+    letter-spacing: 1.5vh;
+    padding-top: 80px;
+    text-shadow: 
+        3px 3px 0px rgb(38, 93, 162),
+        6px 6px 0px #61bb73,
+        10px 10px 0px #aa8bf3;
+        
+}
+
+.about .prompt {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.prompt svg {
+    font-size: 45px;
+    margin: 5px;
+    color: white;
+    padding-left: 4vh;
+    
+}
+
+.prompt svg:hover {
+    cursor: pointer;
+    color: rgb(41, 41, 39);
+}
+
+.home .circle-down-icon {
+    font-size: 8vh;
+    margin-top: 7vh;
+    color: rgb(255, 255, 255);
+
+}
+
+.circle-down-icon:hover{
+    /* color: rgb(3, 156, 173); */
+    color: rgb(41, 41, 39);
+    cursor: pointer;
+}
+
+.additional{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: -0.1vh;
+    font-size: 2vh;
+}
+
+@media only screen and (max-width: 900px) {
+    .about h2 {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 60px;
+        color: #ffe655;
+        /* color: rgb(237, 237, 24); */
+        height: 50px;
+        font-weight: bold;
+        letter-spacing: 1.5vh;
+        padding-top: 80px;
+        text-shadow: 
+            3px 3px 0px rgb(38, 93, 162),
+            6px 6px 0px #61bb73,
+            10px 10px 0px #6868AC;
+            
+    }
+    .about .prompt {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 20px;
+    }
+
+    .prompt svg {
+        font-size: 40px;
+        margin: 5px;
+        color: white;
+        padding-left: 4vh;
+    }
+    
+    .home .circle-down-icon {
+        font-size: 6vh;
+        margin-top: 7vh;
+        color: rgb(255, 255, 255);
+    
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .about h2 {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 80px;
+        color: #ffe655;
+        /* color: rgb(237, 237, 24); */
+        height: 50px;
+        font-weight: bold;
+        letter-spacing: 1.5vh;
+        padding-top: 80px;
+        text-shadow: 
+            3px 3px 0px rgb(38, 93, 162),
+            6px 6px 0px #61bb73,
+            10px 10px 0px #6868AC;
+            
+    }
+    .about .prompt {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 20px;
+    }
+
+    .prompt svg {
+        font-size: 40px;
+        margin: 5px;
+        color: white;
+        padding-left: 4vh;
+    }
+    
+    .home .circle-down-icon {
+        font-size: 6vh;
+        margin-top: 7vh;
+        color: rgb(255, 255, 255);
+    
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .about h2 {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 50px;
+        color: #ffe655;
+        /* color: rgb(237, 237, 24); */
+        height: 50px;
+        font-weight: bold;
+        letter-spacing: 1.5vh;
+        padding-top: 80px;
+        text-shadow: 
+            3px 3px 0px rgb(38, 93, 162),
+            6px 6px 0px #61bb73,
+            10px 10px 0px #6868AC;
+            
+    }
+    .about .prompt {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 18px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .prompt svg {
+        font-size: 40px;
+        margin: 5px;
+        color: white;
+        padding-left: 4vh;
+    }
+    
+    .home .circle-down-icon {
+        font-size: 6vh;
+        margin-top: 7vh;
+        color: rgb(255, 255, 255);
+    
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .about h2 {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 33px;
+        /* color: #ffe655; */
+        /* color: rgb(237, 237, 24); */
+        color: azure;
+        height: 50px;
+        font-weight: bold;
+        letter-spacing: 1.5vh;
+        padding-top: 80px;
+        text-shadow: 
+            3px 3px 0px rgb(38, 93, 162),
+            6px 6px 0px #61bb73,
+            10px 10px 0px #6868AC;
+        margin-top: 15vh;
+    }
+    .about .prompt {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 11px;
+        margin-top: -3vh;
+    }
+
+    .prompt svg {
+        font-size: 35px;
+        margin: 6px;
+        color: white;
+        padding-left: 4vh;
+        
+    }
+
+    .home .circle-down-icon {
+        font-size: 6vh;
+        margin-top: 7vh;
+        color: rgb(255, 255, 255);
+    
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 400px) {
+    .about h2 {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 32px;
+        color: #ffe655;
+        /* color: rgb(237, 237, 24); */
+        height: 50px;
+        font-weight: bold;
+        letter-spacing: 1.5vh;
+        padding-top: 80px;
+        text-shadow: 
+            3px 3px 0px rgb(38, 93, 162),
+            6px 6px 0px #61bb73,
+            10px 10px 0px #6868AC;
+            
+    }
+    .about .prompt {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 11px;
+        margin-top: 10vh;
+    }
+
+    .prompt svg {
+        font-size: 35px;
+        margin: 6px;
+        color: white;
+        padding-left: 4vh;
+        
+    }
+
+    .home .circle-down-icon {
+        font-size: 6vh;
+        margin-top: 7vh;
+        color: rgb(255, 255, 255);
+        margin-right: -2vh;
+    }
+    
+
+}

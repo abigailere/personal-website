@@ -1,0 +1,256 @@
+.project {
+	background: linear-gradient(-45deg, rgb(43, 101, 158), rgb(171, 129, 223), rgb(33, 137, 141), rgb(208, 188, 70) );
+	/* background-size: 400% 400%; */
+	animation: gradient 20s ease infinite;
+	height: auto;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.projectList {
+    width: 50%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+  }
+
+.project h1{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    max-height: 105%;
+    /* color: white; */
+    color: black;
+    font-size: 3rem;
+    /* text-shadow: 
+        0.5px 0.5px 0px #020b16, 
+        2px 2px 0px #6868AC,
+        2px 2px 0px #c3b66d; */
+    margin-bottom: -5rem;
+}
+
+.projectItem {
+    /* border-radius: 15px; */
+    border-radius: 6vh;
+    width: 92vh;
+    height: 60vh;
+    margin: 40px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-style: solid;
+    border-width: 0.6vh;
+  }
+
+.projectItem .display-text h3{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: none;
+    font-weight: bold;
+    position: center;
+    font-size: 5vh;
+    margin-top: -55vh;
+}
+
+.projectItem .display-text p{
+    display: none;
+    color: white;
+    font-size: 3vh;
+    line-height: 1.5rem;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.projectItem .display-text .text2{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: none;
+    color: white;
+    opacity: 0.9;
+    margin-top: 6vh;
+    text-transform: uppercase;
+    font-size: 2.5vh;
+}
+
+.projectItem .display-text .icons{
+    display: none;
+    margin-left: 45%;
+    margin-top: 2vh;
+    font-size: 7vh;
+}
+
+.project .icons:hover {
+    color: black;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.projectItem:hover .display-text .icons{
+    display: block;
+}
+
+.projectItem:hover .display-text h3{
+    display: block;
+    color: #e6ca2d;
+}
+
+.projectItem:hover .display-text p{
+    display: block;
+}
+
+.projectItem:hover .bgImage{
+    opacity: 0.03;
+}
+
+.projectItem:hover .display-text .text2{
+    display: block;
+}
+  
+  
+.projectItem .bgImage {
+    border-radius: 5.5vh;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* object-fit: cover; */
+}
+
+  .project .spacing {
+	padding-bottom: 5%;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .project h1{
+        font-size: 2rem;
+    }
+
+    .projectItem {
+        width: 45vh;
+        height: 40vh;
+    }
+
+    .projectList {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .projectItem .display-text h3{
+        font-size: 3vh;
+        padding-top: 18vh;
+    }
+
+    .projectItem .display-text p{
+        font-size: 2vh;
+        line-height: 1rem;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: -5vh;
+    }
+
+    .projectItem .display-text .text2{
+        font-size: 2vh;
+    }
+
+    .projectItem .display-text .icons{
+        font-size: 3.5vh;
+        margin-top: 1.1vh;
+    }
+
+    
+}
+  
+
+
+@media only screen and (max-width: 600px) {
+    .project h1{
+        font-size: 2rem;
+    }
+
+    .projectItem {
+        width: 45vh;
+        height: 40vh;
+    }
+
+    .projectList {
+        display: grid;
+        grid-template-columns: auto ;
+    }
+
+    .projectItem .display-text h3{
+        font-size: 3vh;
+        padding-top: 18vh;
+    }
+
+    .projectItem .display-text p{
+        font-size: 2vh;
+        line-height: 1rem;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: -5vh;
+    }
+
+    .projectItem .display-text .text2{
+        font-size: 2vh;
+    }
+
+    .projectItem .display-text .icons{
+        font-size: 3.5vh;
+        margin-top: 1.1vh;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 400px) {
+    .project h1{
+        font-size: 2rem;
+    }
+
+    .projectItem {
+        width: 45vh;
+        height: 40vh;
+    }
+
+    .projectList {
+        display: grid;
+        grid-template-columns: auto ;
+    }
+
+    .projectItem .display-text h3{
+        font-size: 3vh;
+        padding-top: 18vh;
+    }
+
+    .projectItem .display-text p{
+        font-size: 2vh;
+        line-height: 1rem;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: -5vh;
+    }
+
+    .projectItem .display-text .text2{
+        font-size: 2vh;
+    }
+
+    .projectItem .display-text .icons{
+        font-size: 3.5vh;
+        margin-top: 1.1vh;
+    }
+
+    
+}
