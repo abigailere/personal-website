@@ -1,35 +1,34 @@
 import red from '../images/red-striped-fabric-texture-600x600.jpg'
-import crimeTracker from '../images/crime_tracker.png'
 import ml_project from '../images/ml_project.png'
-import clicker_project from '../images/proj1.jpg'
-import classmate_finder from '../images/classmate_finder.png'
+import hellscape from '../images/Hellscape.png'
+import terrain_gen from '../images/Terrain_Generator.png'
 
 export const ProjectList = [
     {
-        title: "Chicago Crime Tracker",
-        image: crimeTracker,
-        description: "This is a full-stack web application that informs Chicago residents and travelers safest time and areas to travel in Chicago. The application uses Chicago crime rate data from 2018-2022 to perform complex queries to be displayed on line graph to show statistical trends.",
+        title: "Terrain Generator",
+        image: terrain_gen,
+        description: "This project is a 2D terrain generating interface that generates terrains randomly based on a user’s input. The interface offers two different styles of generation that the user can choose from and two different way to view the final image, 'height' and 'satellite' view.",
         github: "https://github.com/christinealin7771/Chicago-Crime-Radar",
-        skills: "React, Golang, Oracle Database",
+        skills: "Java, Swing",
     },
     {
-        title: "Sarcasm Detection",
+        title: "Pong",
         image: ml_project,
         description: "In this project is a Multimodal Machine Learning project that analyzes audio and textual data to create models that detect sarcasm. The data that was used was from the dataset called Multimodal Sarcasm Detection Dataset that were compiled from popular TV shows like Friends and The Big Bang Theory",
         github: "https://github.com/christinealin7771/ML-Final-Project",
-        skills: "Machine Learning, Pandas, Python, Librosa",
+        skills: "Processing, OOP",
     },
     {
-        title: "Medieval Clickers",
-        image: clicker_project,
+        title: "Hellscape",
+        image: hellscape,
         description: "This is an idle clicker game that is medieval themed. It allows users to enjoy some mindless clicking and buy boosts as they accumulate their clicks.",
         github: "https://github.com/christinealin7771/Medieval-Clicker",
-        skills: "Unity, C#, C++, Javascript, HTML",
+        skills: "Unity, C#, Blender",
     },
 
     {
-        title: "Classmate Finder",
-        image: classmate_finder,
+        title: "Image Processor",
+        image: red,
         description: "This is a full-stack web application help college students find others in your classe to find group partners or just to find some friends. Users will be able to create social posts, create group chats, and find other classmates that have similar interests as them!",
         github: "https://github.com/christinealin7771/Classmate-Finder",
         skills: "React, Express, MySQL",
