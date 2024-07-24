@@ -1,30 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Header';
-import Home from './components/Home';
-import Experiences from './components/Experiences';
-import Projects from './components/Projects';
+import Header from './components/Header';
 import Footer from './components/Footer';
-import DisplayProject from './components/DisplayProject';
+import Home from './components/Home';
 import AboutMe from './components/AboutMe';
-
+import Experiences from './components/Experiences';
+import Project from './components/Projects';
+import Model from './components/Models';
 
 
 function App() {
-
   return (
     <div className="App">
       <Router>
-        <Navbar/>
+        <Header/>
         <Routes>
           <Route path="/" element={<Home/>}></Route>
           <Route path="/about-me" element={<AboutMe/>}></Route>
-          <Route path="/projects" element={<Projects/>}></Route>
           <Route path="/experience" element={<Experiences/>}></Route>
-          <Route path="/displayProject/:id" elemtent={<DisplayProject/>}></Route>
+          <Route path="/projects" element={<Project/>}></Route>
+          <Route path="/model" element={<Model/>}></Route>
         </Routes>
-        <Footer/>
       </Router>
     </div>
   );

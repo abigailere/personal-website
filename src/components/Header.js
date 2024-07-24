@@ -32,7 +32,7 @@ const Header = () => {
             <Link to="/about-me" >About Me</Link>
             <Link to="/experience" onClick={window.scrollTo(0,0)}>Resume</Link>
             <Link to="/projects" onClick={window.scrollTo(0,0)}>Projects</Link>
-            
+            <Link to="/model" onClick={window.scrollTo(0,0)}>3D Models</Link>
         </div>
       </div>
     </header>

@@ -8,14 +8,15 @@ import { ProjectList } from '../projectLists/ProjectList'
 const Projects = () => {
   return (
     <div className='project'>
-      <h1> Projects </h1>
-      <div className='ProjectList'>
-      {ProjectList.map((item, index) => { /* */
-             return <ProjectItem title={item.title} image={item.image} text={item.description} github={item.github} skills={item.skills}/>
-         })}
-      </div>
-      <p className='spacing'></p>
-      <Footer/>
+        <h1> Projects </h1>
+        <div className='projectList'>
+            {ProjectList.map((item, index) => {
+                return <ProjectItem title={item.title} image={item.image} text={item.description} github={item.github} skills={item.skills}/>
+            })}
+        </div>
+    
+        <p className='spacing'></p>
+        <Footer/>
     </div>
   )
 }

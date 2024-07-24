@@ -18,10 +18,10 @@ const AboutMe = () => {
 
   return (
     <div className='about-me'>
-        { <div className='about-me-content'>
+        { /*<div className='about-me-content'>
             <h1>About Me</h1>
         
-        </div> }
+        </div> */}
         <div className='about-me-prompt'>
             <img src={profile} alt="Avatar"/>
             <div className='text'>
@@ -113,7 +113,7 @@ const AboutMe = () => {
             </div>
             <div className='fun-facts-prompt'>
                 <img className="pet" src={language} alt="Cute Pet" />
-                <div className='bubble-left'> I speak fluent Spanish, English, and some Japanese and Korean.</div>
+                <div className='bubble-left'> I'm learning Japanese, Korean, and Spanish.</div>
             </div>
         </div>
         

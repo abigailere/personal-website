@@ -24,4 +24,5 @@ const ProjectItem = ({title, image, text, github, skills, id}) => {
   )
 }
 
+
 export default ProjectItem
